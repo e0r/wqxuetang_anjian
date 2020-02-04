@@ -1,0 +1,217 @@
+'==========以下是按键精灵录制的内容==========
+
+For i=1 To 500
+
+    MoveTo 56, 91
+    Delay 2
+    LeftClick 1
+    Delay 2
+    LeftUp 1
+    Call Plugin.Sys.SetCLB(CStr(i))
+    Delay 6
+    KeyDown "Ctrl", 1
+    Delay 1
+    KeyDown "V", 1
+    Delay 1
+    KeyUp "V", 1
+    Delay 2
+    KeyUp "Ctrl", 1
+    Delay 1
+    MoveTo 1052, 285
+    Delay 100
+    LeftDown 1
+    Delay 2
+    LeftClick 1
+    Delay 2
+    LeftUp 1
+    Delay 20
+    
+    //    MoveTo 1393, 81
+    //    Delay 2
+    //    LeftDown 1
+    //    Delay 1
+    //    LeftClick 1
+    //    Delay 2
+    //    LeftUp 1
+    //    Delay 20
+    //    MoveTo 654, 439
+    //    Delay 2
+    //    LeftDown 1
+    //    Delay 2
+    //    LeftClick 1
+    //    Delay 2
+    //    LeftUp 1
+MoveTo 1394, 87
+Delay 104
+LeftClick 1
+Delay 1
+LeftUp 1
+Delay 1040
+MoveTo 851, 308
+Delay 1653
+LeftDown 1
+Delay 1
+LeftClick 1
+Delay 1
+LeftUp 1
+Delay 380
+KeyDown "Right", 1
+Delay 2
+Delay 143
+KeyUp "Right", 1
+Delay 3
+    
+    
+    
+    
+    
+//    Delay 2000
+//    KeyDown "Right", 1
+//    Delay 6
+//    Delay 138
+//    KeyUp "Right", 1
+//    Delay 2
+    Delay 506//1064
+    KeyDown "Down", 1
+    Delay 7
+    Delay 94
+    KeyUp "Down", 1
+    Delay 3
+    Delay 130//1301
+    KeyDown "Enter", 1
+    Delay 1
+    Delay 74
+    KeyUp "Enter", 1
+    Delay 2
+    Delay 45//4
+    KeyDown "Tab", 1
+    Delay 5
+    Delay 108
+    KeyUp "Tab", 1
+    Delay 4
+    Delay 24//6
+    KeyDown "Tab", 1
+    Delay 7
+    Delay 28//128
+    KeyUp "Tab", 1
+    Delay 3
+    Delay 98//798
+    KeyDown "Ctrl", 1
+    Delay 3
+    Delay 18
+    KeyDown "C", 1
+    Delay 3
+    Delay 14
+    KeyUp "C", 1
+    Delay 7
+    Delay 116
+    KeyUp "Ctrl", 1
+    Delay 7
+
+
+    Clipboard = Plugin.Sys.GetCLB()
+    If Asc(Clipboard)=47 Then  
+        Call Plugin.Sys.SetCLB("https://lib-nuanxin.wqxuetang.com"&Clipboard)
+    Else 
+        Call Plugin.Sys.SetCLB(Clipboard)
+    
+    End If
+
+
+
+    Delay 96
+    KeyDown "Ctrl", 1
+    Delay 9
+    Delay 40
+    KeyDown "T", 1
+    Delay 11
+    Delay 105
+    KeyUp "T", 1
+    Delay 2
+    Delay 19
+    KeyUp "Ctrl", 1
+    Delay 3
+    Delay 27
+    KeyDown "Ctrl", 1
+    Delay 5
+    Delay 119
+    KeyDown "V", 1
+    Delay 6
+    Delay 95
+    KeyUp "Ctrl", 1
+    Delay 3
+    Delay 26
+    KeyUp "V", 1
+    Delay 5
+    Delay 611
+    KeyDown "Enter", 1
+    Delay 2
+    Delay 36
+    KeyUp "Enter", 1
+    Delay 337
+/*
+KeyDown "Right Mouse", 1
+Delay 55
+KeyUp "Right Mouse", 1
+Delay 10
+Delay 9598
+KeyDown "Esc", 1
+Delay 10
+Delay 134
+KeyUp "Esc", 1
+Delay 1120
+*/
+    KeyDown "Ctrl", 1
+    Delay 260
+    KeyDown "S", 1
+    Delay 10
+    Delay 150
+    KeyUp "S", 1
+    Delay 10
+    Delay 40
+    KeyUp "Ctrl", 1
+    MoveTo 791, 507
+    Delay 1000
+    KeyDown "Enter", 1
+    Delay 45
+    KeyUp "Enter", 1
+    Delay 1000
+    KeyDown "Ctrl", 1
+    Delay 4
+    Delay 264
+    KeyDown "W", 1
+    Delay 6
+    Delay 89
+    KeyUp "W", 1
+    Delay 2
+    Delay 50
+    KeyUp "Ctrl", 1
+    Delay 2
+    Delay 216
+//旧版代码
+//    MoveTo 1487, 88
+//    Delay 75
+//    LeftClick 1
+//    Delay 1
+//    LeftUp 1
+//
+//    Delay 216
+//    KeyDown "Down", 1
+//    Delay 10
+//    Delay 74
+//    KeyUp "Down", 1
+//    Delay 168
+//    KeyDown "Down", 1
+//    Delay 10
+//    Delay 53
+//    KeyUp "Down", 1
+//    Delay 3
+//    Delay 306
+//    KeyDown "Down", 1
+//    Delay 10
+//    Delay 54
+//    KeyUp "Down", 1
+//    Delay 3
+
+Next
+'==========以上是按键精灵录制的内容==========
